@@ -20,7 +20,6 @@ Example:
 from pynput.mouse import Button, Controller
 from pynput.keyboard import Listener as KeyboardListener, Key
 import time
-from cv2 import waitKey
 from colorama import Fore, Style, init
 
 init(autoreset=True)
