@@ -42,7 +42,7 @@ python mouse_logger.py
 
 ### 2. **Tıklama Konumlarını Tekrarlama**
 
-`mouse_repeater.py` adlı ikinci script, `click_positions.txt` dosyasından aldığı tıklama konumlarına giderek bu konumlara otomatik olarak sol tıklama yapar. Kullanıcıdan kaç kez tekrar yapılacağı sorulur. `q` tuşuna basıldığında ise script durur.
+`mouse_repeater.py` adlı ikinci script, `click_positions.txt` dosyasından aldığı tıklama konumlarına giderek bu konumlara otomatik olarak sol tıklama yapar. Kullanıcıdan kaç kez tekrar yapılacağı sorulur. `esc` tuşuna basıldığında ise script durur.
 
 #### Çalıştırma:
 
@@ -54,7 +54,7 @@ python mouse_repeater.py
 - `click_positions.txt` dosyasından tıklama konumları okunur.
 - Kullanıcı, kaç kez tıklama işleminin tekrar etmesi gerektiğini belirtir.
 - Belirlenen sayıda tıklama işlemi gerçekleştirilir.
-- `q` tuşuna basıldığında script durur.
+- `esc` tuşuna basıldığında script durur.
 
 ### Dosyalar
 
@@ -70,7 +70,7 @@ python mouse_repeater.py
 
 ## Ekstra Bilgiler
 
-- **Çıkış Yapma**: Her iki scriptte de `q` tuşuna basarak çıkış yapabilirsiniz.
+- **Çıkış Yapma**: Her iki scriptte de `esc` tuşuna basarak çıkış yapabilirsiniz.
 - **Log Dosyası**: Fare tıklama konumları ve tıklama işlemleri kaydedildiği dosya: `click_positions.txt`.
 
 ---
