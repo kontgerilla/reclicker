@@ -28,12 +28,12 @@ pip install -r requirements.txt
 
 ### 1. **Tıklama Konumlarını Kaydetme**
 
-`mouse_logger.py` adlı ilk script, fare ile yaptığınız tıklamaların konumlarını kaydeder ve `esc` tuşuna basıldığında bu konumları `mouse_log.txt` dosyasına yazar.
+`mouse_record.py` adlı ilk script, fare ile yaptığınız tıklamaların konumlarını kaydeder ve `esc` tuşuna basıldığında bu konumları `mouse_log.txt` dosyasına yazar.
 
 #### Çalıştırma:
 
 ```bash
-python mouse_logger.py
+python mouse_record.py
 ```
 
 #### Çalışma Mantığı:
@@ -42,12 +42,12 @@ python mouse_logger.py
 
 ### 2. **Tıklama Konumlarını Tekrarlama**
 
-`mouse_repeater.py` adlı ikinci script, `mouse_log.txt` dosyasından aldığı tıklama konumlarına giderek bu konumlara otomatik olarak sol tıklama yapar. Kullanıcıdan kaç kez tekrar yapılacağı sorulur. `esc` tuşuna basıldığında ise script durur.
+`clicker-run.py` adlı ikinci script, `mouse_log.txt` dosyasından aldığı tıklama konumlarına giderek bu konumlara otomatik olarak sol tıklama yapar. Kullanıcıdan kaç kez tekrar yapılacağı sorulur. `esc` tuşuna basıldığında ise script durur.
 
 #### Çalıştırma:
 
 ```bash
-python mouse_repeater.py
+python clicker-run.py
 ```
 
 #### Çalışma Mantığı:
@@ -64,9 +64,9 @@ python mouse_repeater.py
 
 ## Örnek Kullanım
 
-1. `mouse_logger.py` ile fare tıklamalarını kaydedin.
+1. `mouse_record.py` ile fare tıklamalarını kaydedin.
 2. `mouse_log.txt` dosyası otomatik olarak oluşturulacak.
-3. `mouse_repeater.py` scriptini çalıştırarak, belirtilen konumlara otomatik tıklama yapın.
+3. `clicker-run.py` scriptini çalıştırarak, belirtilen konumlara otomatik tıklama yapın.
 
 ## Ekstra Bilgiler
 
