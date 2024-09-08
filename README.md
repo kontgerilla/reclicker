@@ -74,5 +74,3 @@ python clicker-run.py
 - **Log Dosyası**: Fare tıklama konumları ve tıklama işlemleri kaydedildiği dosya: `mouse_log.txt`.
 
 ---
-
-Bu README dosyası, projeyi başkalarına tanıtmak ve adım adım nasıl kullanılacağını açıklamak için uygundur.
