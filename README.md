@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ### 1. **Tıklama Konumlarını Kaydetme**
 
-`mouse_logger.py` adlı ilk script, fare ile yaptığınız tıklamaların konumlarını kaydeder ve `esc` tuşuna basıldığında bu konumları `click_positions.txt` dosyasına yazar.
+`mouse_logger.py` adlı ilk script, fare ile yaptığınız tıklamaların konumlarını kaydeder ve `esc` tuşuna basıldığında bu konumları `mouse_log.txt` dosyasına yazar.
 
 #### Çalıştırma:
 
@@ -38,11 +38,11 @@ python mouse_logger.py
 
 #### Çalışma Mantığı:
 - Fare tıklamaları yakalanır ve tıklanan her bir konum ekranda gösterilir.
-- `esc` tuşuna bastığınızda tıklanan tüm konumlar `click_positions.txt` dosyasına kaydedilir.
+- `esc` tuşuna bastığınızda tıklanan tüm konumlar `mouse_log.txt` dosyasına kaydedilir.
 
 ### 2. **Tıklama Konumlarını Tekrarlama**
 
-`mouse_repeater.py` adlı ikinci script, `click_positions.txt` dosyasından aldığı tıklama konumlarına giderek bu konumlara otomatik olarak sol tıklama yapar. Kullanıcıdan kaç kez tekrar yapılacağı sorulur. `esc` tuşuna basıldığında ise script durur.
+`mouse_repeater.py` adlı ikinci script, `mouse_log.txt` dosyasından aldığı tıklama konumlarına giderek bu konumlara otomatik olarak sol tıklama yapar. Kullanıcıdan kaç kez tekrar yapılacağı sorulur. `esc` tuşuna basıldığında ise script durur.
 
 #### Çalıştırma:
 
@@ -51,7 +51,7 @@ python mouse_repeater.py
 ```
 
 #### Çalışma Mantığı:
-- `click_positions.txt` dosyasından tıklama konumları okunur.
+- `mouse_log.txt` dosyasından tıklama konumları okunur.
 - Kullanıcı, kaç kez tıklama işleminin tekrar etmesi gerektiğini belirtir.
 - Belirlenen sayıda tıklama işlemi gerçekleştirilir.
 - `esc` tuşuna basıldığında script durur.
@@ -65,13 +65,13 @@ python mouse_repeater.py
 ## Örnek Kullanım
 
 1. `mouse_logger.py` ile fare tıklamalarını kaydedin.
-2. `click_positions.txt` dosyası otomatik olarak oluşturulacak.
+2. `mouse_log.txt` dosyası otomatik olarak oluşturulacak.
 3. `mouse_repeater.py` scriptini çalıştırarak, belirtilen konumlara otomatik tıklama yapın.
 
 ## Ekstra Bilgiler
 
 - **Çıkış Yapma**: Her iki scriptte de `esc` tuşuna basarak çıkış yapabilirsiniz.
-- **Log Dosyası**: Fare tıklama konumları ve tıklama işlemleri kaydedildiği dosya: `click_positions.txt`.
+- **Log Dosyası**: Fare tıklama konumları ve tıklama işlemleri kaydedildiği dosya: `mouse_log.txt`.
 
 ---
 
